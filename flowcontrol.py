@@ -53,3 +53,14 @@ def printMyNum(num = 69):
   print(num)
 
 printMyNum()
+
+# Lambda expressions
+## basically syntactic sugar for functions(similar in concept to what arrow functions do)
+def increment(num = 0):
+  return lambda x: x + num
+
+incBy2 = increment(2)
+incBy1 = increment(1)
+print(incBy2(1))
+print(incBy1(99))
+
