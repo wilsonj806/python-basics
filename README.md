@@ -2,6 +2,10 @@
 ## Overview
 This is a quick Python tutorial repo. Mostly just following the docs and making new `.py` files as needed. Notes will be included as needed.
 
+## Relevant Files
+- [Lists](./lists.md)
+- [Classes](./classes.md)
+
 ## Syntax stuff
 Python uses a lot of indenting to do everything so a function/ if-else in JS looks like:
 ```js
